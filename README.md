@@ -2,7 +2,7 @@
 Experiment 3 of the C++ And Data Structures
 Grade Experiment
 
-#include<iostream>  #Standard input output library
+#include<iostream>  //Standard input output library
 using namespace std;
 
 int physics;
@@ -21,10 +21,10 @@ cin >> maths;
 cout << "Enter marks for physics: ";
 cin >> physics;
 
-cout << "Enter marks for biology: "; #cin is for taking input and cout is for output
+cout << "Enter marks for biology: "; //cin is for taking input and cout is for output
 cin >> biology;
 
-#use of && operator so that both the conditions get satisfied,avg>80 and avg<90.So only if both the conditions are satisfied this will be true and it will go inside the if scope
+//use of && operator so that both the conditions get satisfied,avg>80 and avg<90.So only if both the conditions are satisfied this will be true and it will go inside the if scope
 
 if (avg>80 && avg<90){  
     cout<<"O grade";
@@ -43,7 +43,7 @@ else{
 
 }
 
-#Experiment for coordinates
+//Experiment for coordinates
 
 #include<iostream>
 using namespace std;
