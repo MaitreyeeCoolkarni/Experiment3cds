@@ -4,7 +4,7 @@ using namespace std;
 int main() {
     int physics, maths, biology;
 
-    // Take input for marks
+    
     cout << "Enter marks for math: ";
     cin >> maths;
 
@@ -24,15 +24,22 @@ int main() {
     if (avg > 80) {
         cout << "O grade" << endl;
     }
-    else if (avg > 70) { // No need for avg < 80 since it’s implied
+    else if (avg > 70) { 
         cout << "A+ grade" << endl;
     }
-    else if (avg > 60) { // No need for avg < 70 since it’s implied
+    else if (avg > 60) { 
         cout << "A grade" << endl;
+    }
+    else if(avg>50){
+        cout<<"B grade"<<endl;
+    }
+    else if(avg>40){
+        cout<<"C grade"<<endl;
     }
     else {
         cout << "Fail" << endl;
     }
 
     return 0;
-}
+    }
+
