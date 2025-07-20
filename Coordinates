@@ -1,37 +1,38 @@
-
-#include<iostream>
+#include <iostream>
 using namespace std;
 
+int main() {
+    int x, y;
 
-int main(){
+    cout << "Enter x coordinate: ";
+    cin >> x;
 
-int x, y;
+    cout << "Enter y coordinate: ";
+    cin >> y;
 
-cout << "Enter x coordinate: ";
-cin >> x;
+    if (x == 0 && y == 0) {
+        cout << "Origin" << endl;
+    }
+    else if (x == 0) {
+        cout << "Point lies on the y-axis" << endl;
+    }
+    else if (y == 0) {
+        cout << "Point lies on the x-axis" << endl;
+    }
+    else if (x > 0 && y > 0) {
+        cout << "First quadrant" << endl;
+    }
+    else if (x < 0 && y > 0) {
+        cout << "Second quadrant" << endl;
+    }
+    else if (x < 0 && y < 0) {
+        cout << "Third quadrant" << endl;
+    }
+    else {
+        cout << "Fourth quadrant" << endl;
+    }
 
-cout << "Enter y coordinate: ";
-cin >> y;
-
-
-if (x>0 && y>0){
-    cout<<"First quadrant";
+    return 0;
 }
-else if (x>0 && y<0){
-    cout<<"Second quadrant";
-}
-
-else if(x<0 && y<0){
-    cout<<"Third";
-}
-
-else if(x==0 && y==0){
-  cout<<"origin";
-}
 
 
-else{
-    cout<<"Fourth";
-}
-
-}
