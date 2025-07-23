@@ -1,72 +1,69 @@
-AIM-To learn about diffrent relational operators like <,>,==,!= 
+# Relational Operators in C++
 
-APPARATUS-VS CODE/Programiz
+Aim: To learn about different relational operators like `<`, `>`, `==`, `!=`  
+Apparatus: VS Code / Programiz
 
-ALGORITHM:
-(For Coordinates code):
+---
 
-Declare two integer variables for x and y coordinates.
+## Algorithm
 
-Prompt and store user input for x coordinate.
+### Program 1 – Coordinates
 
-Prompt and store user input for y coordinate.
+1. Declare two integer variables for x and y coordinates  
+2. Prompt and store user input for x coordinate  
+3. Prompt and store user input for y coordinate  
+4. Output the position of the point `(x, y)` based on its coordinates:
+   - Origin
+   - On x-axis
+   - On y-axis
+   - In one of the four quadrants
 
-Output the position of point (x, y) based on its coordinates (origin, x-axis, y-axis, or one of four quadrants).
+### Program 2 – Grade Evaluation
 
-PROGRAM 2:
-(For grades program)
-Declare three integer variables for physics, maths, and biology marks.
+1. Declare three integer variables for marks in Physics, Maths, and Biology  
+2. Prompt and store user input for each subject  
+3. Calculate the average of the three marks  
+4. Output the average  
+5. Output the grade based on the average:  
+   - O, A+, A, B, C, or Fail
 
-Prompt and store user input for maths marks.
+### Program 3 – Even and Odd Classification
 
-Prompt and store user input for physics marks.
+1. Declare an integer variable  
+2. Prompt and store user input  
+3. Output whether the number is:
+   - Positive  
+   - Negative  
+   - Zero
 
-Prompt and store user input for biology marks.
+---
 
-Calculate the average of the three marks.
+## Theory
 
-Output the average marks.
+In C++, relational operators are used to compare two values or expressions and return a boolean result: `true` (1) or `false` (0). They are essential in control flow statements such as `if`, `while`, and `for`.
 
-Output the grade based on the average (O, A+, A, B, C, or Fail).
+### Common Relational Operators
 
-Program 3:
-(For Even and Odd)
+- `==` (Equal to): Returns `true` if both values are equal  
+  Example: `5 == 5` → `true`
 
-Declare an integer variable for a number.
+- `!=` (Not equal to): Returns `true` if values are not equal  
+  Example: `5 != 3` → `true`
 
-Prompt and store user input for the number.
+- `>` (Greater than): Returns `true` if the left value is greater  
+  Example: `5 > 3` → `true`
 
-Output whether the number is positive, negative, or zero based on its value.
+- `<` (Less than): Returns `true` if the left value is smaller  
+  Example: `3 < 5` → `true`
 
-THEORY:
-In C++, relational operators are used to compare two values or expressions, returning a boolean result (true or false) based on the relationship between them. They are commonly used in conditional statements (e.g., if, while) to evaluate conditions.
+- `>=` (Greater than or equal to): Returns `true` if left is greater or equal  
+  Example: `5 >= 5` → `true`
 
-Equal to (==): Checks if two values are equal.
-Example: 5 == 5 returns true.
+- `<=` (Less than or equal to): Returns `true` if left is smaller or equal  
+  Example: `3 <= 5` → `true`
 
-Not equal to (!=): Checks if two values are not equal.
-Example: 5 != 3 returns true.
+---
 
-Greater than (>): Checks if the left value is greater than the right value.
-Example: 5 > 3 returns true.
+## Conclusion
 
-Less than (<): Checks if the left value is less than the right value.
-Example: 3 < 5 returns true.
-
-Greater than or equal to (>=): Checks if the left value is greater than or equal to the right value.
-Example: 5 >= 5 returns true.
-
-Less than or equal to (<=): Checks if the left value is less than or equal to the right value.
-Example: 3 <= 5 returns true.
-
-Conclusion:Relational operators allow the program to have multiple conditions which can help us write the program
-
-
-
-
-
-
-
-
-
-
+Relational operators enable comparison between values and play a crucial role in decision-making within a program. By using these operators, we can control program flow and create flexible, condition-based logic.
